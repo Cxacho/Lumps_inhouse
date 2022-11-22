@@ -18,7 +18,7 @@ from inhouse_bot.queue_channel_handler.queue_channel_handler import (
     QueueChannelsOnly,
     queue_channel_handler,
 )
-
+intent.messages = True
 # Defining intents to get full members list
 from inhouse_bot.ranking_channel_handler.ranking_channel_handler import ranking_channel_handler
 
